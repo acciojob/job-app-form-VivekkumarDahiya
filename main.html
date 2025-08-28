@@ -12,30 +12,30 @@
 </script>
 	<form method="post">
 		<label  for="name">Name </label>
-		<input type="text" id="name"><br><br>
+		<input type="text" id="name" name="Name" required><br><br>
 		<label for="email">Email </label>
-		<input type="email" id="email"><br><br>
+		<input type="email" id="email" name="Email" required><br><br>
 		
 		<label>Gender </label><br>
-		<input type="radio" name="gender" id="male">
+		<input type="radio" value="male"   name="gender" id="male" required >
 		<label for="male">Male</label><Br>
-		<input type="radio" name="gender" id="female">
+		<input type="radio" value="female"  name="gender" id="female"  required>
 		<label for="female">Female</label><Br>
-		<input type="radio" name="gender" id="other">
+		<input type="radio" value="other" name="gender" id="other"  required>
 		<label for="other">Other</label><br><br>
 		<label>Laptob Brands </label>
 		<select>
-			<option>Dell</option>
-			<option>lenovo</option>
-			<option>HP</option>
-			<option>Apple</option>
+			<option value="Dell">Dell</option>
+			<option value="lenovo">lenovo</option>
+			<option value="HP">HP</option>
+			<option value="Apple">Apple</option>
 		</select><br><Br>
 		<labe for="age">Age </labe>
-		<input type="number"  id="age"><Br><br>
+		<input type="number"  id="age" name="age" required><Br><br>
 		<label for="dob">Date of Birth </label>
-		<input type="date" id="dob"><Br><BR>
+		<input type="date" id="dob" name="date of birth" required><Br><BR>
 		<label for="password">Password </label>
-		<input type ="password" id="password"><br><br>
+		<input type ="password" id="password" name="password" required><br><br>
 		<label for="portfolio">Portfolio URL </label>
 		<input type="url" id="portfolio"><Br><Br>
 		<button type="button">Submit</button>
